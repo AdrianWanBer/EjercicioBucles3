@@ -23,6 +23,11 @@ public class Inicio {
 				
 				System.out.println("Has acertado, el numero era: " + numeroParaAcertarEntero);
 			}
+			if (numeroDicho>numeroParaAcertarEntero){
+			System.out.println("El numero es menor")
+			} if else (numeroDIcho<numeroParaAcertarEntero){
+			System.out.println("El numero es mayor")
+			}
 		}
 		System.out.println("El numero era: " + numeroParaAcertarEntero);
 	}
