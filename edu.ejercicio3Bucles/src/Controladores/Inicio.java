@@ -22,6 +22,7 @@ public class Inicio {
 			if(numeroDicho == numeroParaAcertarEntero) {
 				
 				System.out.println("Has acertado, el numero era: " + numeroParaAcertarEntero);
+				break;
 			}
 			if (numeroDicho>numeroParaAcertarEntero){
 			System.out.println("El numero es menor")
